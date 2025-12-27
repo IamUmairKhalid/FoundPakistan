@@ -13,7 +13,6 @@ import ContactStep from "../../modules/report/components/steps/ContactStep";
 import ReviewSubmitStep from "../../modules/report/components/steps/ReviewSubmitStep";
 import Button from "../../modules/shared/ui/Button";
 import { t } from "../../lib/i18n";
-import { mockSubmitCase } from "../../data/mockSubmit";
 import { useAuth } from "@/lib/AuthContext";
 import { useRouter } from "next/navigation";
 import { caseApi } from "@/lib/caseApi";
